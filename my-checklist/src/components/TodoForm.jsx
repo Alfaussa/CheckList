@@ -14,8 +14,8 @@ function handleClick(){
 
 
     return <>
-<input type = "text" value={task} onChange={changeHandler}></input>
-<button onClick={(task) => handleClick(task)}></button>
+<input type = "text" placeholder="add your task here ..." value={task} onChange={changeHandler}></input>
+<button onClick={(task) => handleClick(task)}>save</button>
     </>
 
     
